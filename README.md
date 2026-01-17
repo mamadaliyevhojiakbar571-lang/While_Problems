@@ -1,11 +1,22 @@
-Tartib,Masala nomi,Algoritm mantiqi
-While1,Kesmaning bo'sh qismi,A dan B ni ayirib borish orqali qoldiqni topish (ko'paytirish va bo'lishsiz).
-While2,Joylashtirilgan kesmalar soni,A ning ichida nechta B borligini sanash (sikl har safar aylanganda counter+1).
-While3,Bo'linma va qoldiqni topish,Butunli bo'lish va qoldiqni faqat ayirish/qo'shish amallari orqali hisoblash.
-While4,3-ning darajasini tekshirish,"Berilgan sonni 1 bo'lguncha 3 ga bo'lib borish. Agar natija aynan 1 bo'lsa, u 3 ning darajasi."
-While5,2-ning darajasini (k) topish,"2k=n bo'lsa, 1 ni n ga teng bo'lguncha 2 ga ko'paytirib, k ni sanab borish."
-While6,Qo'sh faktorial (n!!),Sonni to 0 yoki 1 bo'lguncha 2 tadan kamaytirib ko'paytirish.
-While7,Kvadrat ildizdan katta k,k2>n shartini qanoatlantiruvchi eng birinchi (kichik) butun k ni topish.
-While8,Kvadrat ildizdan kichik k,k2≤n shartini qanoatlantiruvchi eng oxirgi (katta) butun k ni topish.
-While9,3 ning darajasi (k > n),3k>n shartini bajaruvchi eng kichik butun k sonini aniqlash.
-While10,3 ning darajasi (k <= n),3k≤n shartini bajaruvchi eng katta butun k sonini aniqlash.# While_Problems
+# While Loop Mastery: 10 ta Algoritmik Masala
+
+Ushbu repozitoriyda Python dasturlash tilining `while` sikl operatori yordamida yechilgan 10 ta asosiy mantiqiy masala joylangan. Loyiha davomida matematik muammolarni tayyor funksiyalarsiz, faqat sikllar va sodda arifmetika yordamida yechishga e'tibor qaratilgan.
+
+## 📁 Loyiha tarkibi
+
+Loyihada quyidagi fayllar mavjud:
+
+| Fayl | Vazifasi |
+| :--- | :--- |
+| `task1.py` | A kesmadagi B kesmadan ortib qolgan qismni topish (ayirish orqali). |
+| `task2.py` | A kesma ichida B kesma necha marta joylashishini sanash. |
+| `task3.py` | N sonini K ga bo'lgandagi butun qism va qoldiqni aniqlash. |
+| `task4.py` | Sonning 3-ning darajasi ekanligini `True/False` ko'rinishida aniqlash. |
+| `task5.py` | $2^k = n$ bo'lsa, $k$ daraja ko'rsatkichini topish. |
+| `task6.py` | Berilgan sonning qo'sh faktorialini ($n!!$) hisoblash. |
+| `task7.py` | $k^2 > n$ shartini qanoatlantiruvchi eng kichik $k$ butun sonini topish. |
+| `task8.py` | $k^2 \le n$ shartini qanoatlantiruvchi eng katta $k$ butun sonini topish. |
+| `task9.py` | $3^k > n$ shartini qanoatlantiruvchi eng kichik $k$ sonini topish. |
+| `task10.py` | $3^k \le n$ shartini qanoatlantiruvchi eng katta $k$ sonini topish. |
+
+
